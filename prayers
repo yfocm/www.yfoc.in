@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html data-theme="light">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>www.yfoc.in</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/4d6dcbb26a.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+ <!------------swiperjs cdn link---->
+
+
+<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
+<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+
+<script src="https://unpkg.com/swiper/js/swiper.js"></script>
+<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="../package/css/swiper.min.css">
+    </head>
+    <body>
+    <!------------navigation--------->
+        <nav class="nav">
+           <a href="#" class="nav__link">
+                <i class="fa fa-home" aria-hidden="true"></i>
+                <span class="nav__text">Home</span>
+            </a>
+            <a href="#" class="nav__link">
+                <i class="fa fa-book" aria-hidden="true"></i>
+                <span class="nav__text">Sermons</span>
+            </a>
+            <a href="#" class="nav__link nav__link--active">
+                <i class="fa fa-hands" aria-hidden="true"></i>
+                <span class="nav__text">Prayers</span>
+            </a>
+            <a href="#" class="nav__link">
+                <i class="fa fa-youtube" aria-hidden="true"></i>
+                <span class="nav__text">Videos</span>
+            </a>
+<!-----------hamburger------------->
+        
+        <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  
+  <!------------nav heading--------->
+  <h3>YFOCM</h3>
+  <h4 class="nav-head">Forever Young And Dynamic In Christ</h4>
+  
+  <!-------------nav links---------->
+  
+<a href="#">Contact Personally</a>
+<a href="#">Song Suggestions</a>
+<a href="#">Videos</a>
+<a href="#">Audio Sermons</a>
+<a href="#">Team</a>
+</div>
+
+<!-- Use any element to open the sidenav -->
+<span onclick="openNav()"><div class="hamburger">
+       <span class="line one"></div>
+       <span class="line two"></div>
+       <span class="line three"></div>
+                </div>
+       </span>
+
+<!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page --
+<div id="main">
+  ...
+</div>--->
+    
+</nav>
+        
+        <!-----------main pic------>
+        <div class="mainpic">
+  <img src="https://source.unsplash.com/weekly?mountains" alt="header image" style="margin:0px !important; width:100% !important;">
+  <div class="bottom-left"></div>
+  <div class="top-left"></div>
+  <div class="top-right"></div>
+  <div class="bottom-right">#revival</div>
+  <div class="centered">Prayers</div>
+  <div class="top-left sub">Read Our Prayers And Be Blessed</div>
+</div>
+            
+          
+<!------------text animation--------->                    
+    <div class="item" data-aos="fade-up"></div>
+    <br />
+    <div class="item1" data-aos="fade-down"></div>
+    <br />
+    <!-----<div class="item2" data-aos="fade-right">2</div>
+    <br />
+    <div class="item3" data-aos="fade-left">3</div>
+    <br />
+    <div class="item4" data-aos="zoom-in">4</div>
+    <br />
+    <div class="item5" data-aos="zoom-out">5</div>
+    <br />
+    <div class="item6" data-aos="slide-up">6</div>
+    <br />
+    <div class="item7" data-aos="flip-up">7</div>--->
+    <br />
+
+    <script>
+   
+            AOS.init({
+            duration: 1500,
+        })
+    
+        
+    </script>
+    </form>
+    
+    
+    <!----------cards------------>
+    
+   <div class="container">
+   <div class="card">
+   <div class="imgBx">
+   <img src="https://source.unsplash.com/weekly?bible">
+   </div>
+   <div class="contentBx">
+   <h2></h2>
+   <p></p>
+   <a href="">Read More</a>
+   </div>
+   </div>
+   <div class="card">
+   <div class="imgBx">
+   <img src="https://source.unsplash.com/weekly?prayer">
+   </div>
+   <div class="contentBx">
+   <h2>Prayers</h2>
+   <p></p>
+   <a href="">Prayers</a>
+   </div>
+   </div>
+   <div class="card">
+   <div class="imgBx">
+   <img src="https://source.unsplash.com/weekly?prayers">
+   </div>
+   <div class="contentBx">
+   <h2>Daily Prayers</h2>
+   <p></p>
+   <a href="">Daily Prayers</a>
+   </div>
+   </div>
+   <div class="card">
+   <div class="imgBx">
+   <img src="https://source.unsplash.com/weekly?walking">
+   </div>
+   <div class="contentBx">
+   <h2>Testimonies</h2>
+   <p></p>
+   <a href="">Testimonies</a>
+   </div>
+   </div>
+   <div class="card">
+   <div class="imgBx">
+   <img src="https://source.unsplash.com/weekly?coffe">
+   </div>
+   <div class="contentBx">
+   <h2>Contact Personally</h2>
+   <p></p>
+   <a href="">Contact Us</a>
+   </div>
+   </div>
+   <div class="card">
+   <div class="imgBx">
+   <img src="https://source.unsplash.com/weekly?happy">
+   </div>
+   <div class="contentBx">
+   <h2>About</h2>
+   <p></p>
+   <a href="">About Us</a>
+   </div>
+   </div>
+   </div>
+        
+        
+        <!-------footer--------->
+        
+    <div class="footer">
+        <div class="headingandblockquote"><h3>Get In Touch With Us</h3></div>
+       <div class="fa-2x">
+       <a href="https://www.facebook.com/yfocm4Christ/"><i class="fab fa-facebook"></i></a>
+       <a href="https://www.instagram.com/young_followers_of_christ/"><i class="fab fa-instagram"></i></a>
+       <a href="https://www.yfoc.in/contact"><i class="fab fa-whatsapp"></i></a>
+       <a href="https://www.yfoc.in/contact"><i class="fab fa-twitter"></i></a>
+       <a href="https://www.yfoc.in"><i class="fas fa-globe"></i></a>
+       <a href="https://www.yfoc.in/contact"><i class="fas fa-phone"></i></a>
+       <a href="https://www.yfoc.in/contact"><i class="fas fa-envelope-square"></i></a>
+</div>
+
+
+<!-----------copyright-------------->
+<br><br><br><div class="copyright">
+<small>Image Courtesy : <a href="https://www.unsplash.com">unsplash.com</a>
+©2020youngfollowersofchristministries
+</small></div>
+</div>
+
+
+<!------------dark mode-------------
+    <div class="toggle-container">
+        <input type="checkbox" id="switch" name="theme" />
+        <label for="switch">Toggle</label>
+    </div>
+
+
+<!-----------script for hamburger---->
+
+<script>
+   /* Open the sidenav */
+function openNav() {
+  document.getElementById("mySidenav").style.width = "100%";
+}
+
+/* Close/hide the sidenav */
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+} 
+</script>
+
+</body>
+</html>
