@@ -32,6 +32,27 @@
 
 
 <body>
+  <!---------greeting----------->
+<script>
+//good morning
+var today = new Date();
+var hourNow = today.getHours();
+var greeting;
+
+if(hourNow>18){
+    greeting='Have A Blessed Evening!!';
+}
+else if(hourNow>12){
+    greeting='Have A Blessed Afternoon!!';
+}
+else if(hourNow<12){
+    greeting='Have A Blessed Morning!!';
+}
+else{
+    greeting='God Bless!';
+}
+document.write('<h6>'+greeting+'</h6>')
+</script>
   <!------------navigation--------->
   <nav class="nav">
     <a href="https://yfocm.github.io/www.yfoc.in/#" class="nav__link nav__link--active">
@@ -324,29 +345,6 @@
   function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
   }
-</script>
-
-
-<!--------greeting--------------->
-<script>
-  //good morning
-var today = new Date();
-var hourNow = today.getHours();
-var greeting;
-
-if(hourNow>18){
-    greeting='Have A Blessed Evening!!';
-}
-else if(hourNow>12){
-    greeting='Have A Blessed Afternoon!!';
-}
-else if(hourNow<12){
-    greeting='Have A Blessed Morning!!';
-}
-else{
-    greeting='God Bless!';
-}
-document.write('<h6>'+greeting+'</h6>')
 </script>
 
 </body>
