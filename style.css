@@ -572,3 +572,17 @@ html.transition *:after {
 {
     background-image:linear-gradient(to right, #00f2fe 0%, #4facfe 100%);
 }
+.bibleverse
+{
+    position:relative;
+    display:block;
+    margin:7px;
+    padding:40px 30px;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap:wrap;
+    background:#ebf5fc;
+    border-radius:4px;
+    box-shadow:-6px -6px 20px rgba(255, 255, 255, 1), 6px 6px 20px rgba(0,0,0,.1);
+    border-left:4px solid blue;
+}
